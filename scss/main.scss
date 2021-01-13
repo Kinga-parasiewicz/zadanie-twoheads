@@ -2,6 +2,7 @@
    Main SCSS file
    ========================================================================== */
 
+
 /* Import
    ========================================================================== */
     @import '00-settings/*';
@@ -9,5 +10,11 @@
     @import './navigation';
     @import './variables';
     @import './header';
+    @import './calendar';
+    @import './progress';
+    @import './footer';
 /* Variables
    ========================================================================== */
+   .page-home{
+      background:linear-gradient(142deg, rgba(255,255,255,1) 67%, $main 67%);
+   };

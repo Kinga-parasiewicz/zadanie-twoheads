@@ -1,0 +1,52 @@
+
+    .calendar{
+        width: 350px;
+        height: 460px;
+        margin: 20px 0 0;
+        padding: 5px 0 0;
+        opacity: 0.92;
+        border-radius: 10px;
+        background-color: $bgColor;
+        h2{
+            color:$main;
+            font-size: 140px;
+            font-weight: 700;
+            font-family: $open-sans;
+            text-align: center;
+            font-stretch: normal;
+            margin: 0 95px 
+        }
+        p{
+            font-size: 28px;
+            color:$whiteColor;
+            font-family: $open-sans;
+            font-weight: 600;
+            text-align: center;
+        }
+      
+        .calendar-numbers{
+          margin-top: 0px;
+          
+            .number{
+                color:$main;
+                font-size: 14px;
+                font-weight: 700;
+                font-family: $open-sans;
+                list-style-type: none;
+                margin: 10px 0px ;
+                padding-left: 0px;
+      
+                span{
+                    color:$whiteColor;
+                    background-color: $main;
+                    padding: 6px 8px 6px 8px;
+                    margin-left: -5px;
+                  
+                }
+                
+                
+            }
+        }
+      
+      }
+ 

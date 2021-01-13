@@ -8,11 +8,9 @@
                 height: 30px;
                 margin: 15px 11px 10px 2.3px;
                 border: solid 4px $main;
-            }
+            };
     .navbar-nav-scroll{
-        
         .navbar-nav{
-           
             .nav-item{
                 margin: 6px 0px 0 10px;
                 .nav-link{
@@ -23,26 +21,23 @@
                     font-style: normal;
                     line-height: normal;
                     letter-spacing: normal;
-                    color: #8c909d;
-                
-                   
+                    color: #8c909d; 
                 span{
                      color: $whiteColor;
                      width: 24px;
                     height: 24px;
                     padding: 3px 5px 4px;
                      background-color: #8c909d;
-                }
-            }
+                };
+            };
             .nav-link--color{
                 color:$main;
                 border-bottom: solid 2px $main;
                 width:20px;
-                
-            }
-            }
-        }
-    }
+            };
+            };
+        };
+    };
 
     .navbar-nav{
         
@@ -52,11 +47,6 @@
             color:$main;
             font-family:$open-sans ;
             font-weight: 700;
-                 
-            
-        
-        }
-    }
-
-
-}
+        };
+    };
+};
